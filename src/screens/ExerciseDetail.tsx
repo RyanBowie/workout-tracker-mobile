@@ -9,10 +9,9 @@ export default function ExerciseDetail({ route, navigation }: any) {
 
   const instructions = Array.isArray(exercise.instructions)
     ? exercise.instructions
-    : (exercise.instructions || '').split('\n').filter(Boolean);
+    : (exercise.instructions || exercise.howTo || '').split('\n').filter(Boolean);
 
   function renderIcon() {
-    const placeholder = 'https://via.placeholder.com/96';
     const uri = exercise.icon || exercise.image || null;
     if (uri) {
       return <Image source={{ uri }} style={styles.icon} />;
@@ -20,7 +19,12 @@ export default function ExerciseDetail({ route, navigation }: any) {
     if (exercise.iconEmoji) {
       return <Text style={styles.emoji}>{exercise.iconEmoji}</Text>;
     }
-    return <Image source={{ uri: placeholder }} style={styles.icon} />;
+    const initials = (exercise.name || '').split(' ').slice(0,2).map((s: string)=>s[0]).join('').toUpperCase();
+    return (
+      <View style={styles.iconPlaceholder}>
+        <Text style={{ color: colors.muted, fontWeight: '700', fontSize: 24 }}>{initials}</Text>
+      </View>
+    );
   }
 
   return (
@@ -30,32 +34,51 @@ export default function ExerciseDetail({ route, navigation }: any) {
         <Text style={styles.name}>{exercise.name}</Text>
       </View>
 
-      <Text style={styles.meta}>Primary: {exercise.primary_muscle || '—'}</Text>
+      <Text style={styles.meta}>Primary: {exercise.primary_muscle || exercise.primary_muscle || '—'}</Text>
       <Text style={styles.meta}>Equipment: {exercise.equipment || '—'}</Text>
-      {exercise.secondaryMuscles ? (
-        <Text style={styles.meta}>Targets: {(exercise.secondaryMuscles || []).join(', ')}</Text>
+
+      {exercise.muscles && Array.isArray(exercise.muscles) ? (
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginTop: 6 }}>
+          {exercise.muscles.map((m: string, i: number) => (
+            <View key={i} style={styles.chip}><Text style={styles.chipText}>{m}</Text></View>
+          ))}
+        </View>
       ) : null}
 
       {exercise.description ? <Text style={styles.description}>{exercise.description}</Text> : null}
 
-      <Text style={styles.sectionTitle}>Instructions</Text>
-      <FlatList
-        data={instructions}
-        keyExtractor={(item, idx) => String(idx)}
-        renderItem={({ item }) => (
-          <View style={styles.instructionRow}>
-            <Text style={styles.bullet}>•</Text>
-            <Text style={styles.instructionText}>{item}</Text>
-          </View>
-        )}
-        ItemSeparatorComponent={() => <View style={{ height: 6 }} />}
-      />
+      {instructions && instructions.length ? (
+        <>
+          <Text style={styles.sectionTitle}>How to</Text>
+          <FlatList
+            data={instructions}
+            keyExtractor={(item, idx) => String(idx)}
+            renderItem={({ item }) => (
+              <View style={styles.instructionRow}>
+                <Text style={styles.bullet}>•</Text>
+                <Text style={styles.instructionText}>{item}</Text>
+              </View>
+            )}
+            ItemSeparatorComponent={() => <View style={{ height: 6 }} />}
+          />
+        </>
+      ) : null}
+
+      {exercise.tips ? (
+        <>
+          <Text style={styles.sectionTitle}>Tips</Text>
+          <Text style={{ color: colors.muted, paddingHorizontal: 8 }}>{exercise.tips}</Text>
+        </>
+      ) : null}
 
       {exercise.exampleSets ? (
         <>
           <Text style={styles.sectionTitle}>Example Sets</Text>
           {Array.isArray(exercise.exampleSets) && exercise.exampleSets.map((ex: any, i: number) => (
-            <Text key={i} style={{ color: colors.muted }}>{ex.sets} × {ex.reps} — {ex.weight}</Text>
+            <View key={i} style={{ paddingHorizontal: 8, marginBottom: 6 }}>
+              <Text style={{ color: colors.text }}>{ex.sets} × {ex.reps} {ex.weight ? `— ${ex.weight}` : ''}</Text>
+              {ex.rest_seconds ? <Text style={{ color: colors.muted, fontSize: 12 }}>Rest: {ex.rest_seconds}s</Text> : null}
+            </View>
           ))}
         </>
       ) : null}
@@ -71,6 +94,7 @@ export default function ExerciseDetail({ route, navigation }: any) {
 const styles = StyleSheet.create({
   container: { backgroundColor: colors.background },
   icon: { width: 96, height: 96, borderRadius: 8, marginBottom: 8, backgroundColor: colors.surface },
+  iconPlaceholder: { width: 96, height: 96, borderRadius: 8, marginBottom: 8, backgroundColor: '#081018', alignItems: 'center', justifyContent: 'center' },
   emoji: { fontSize: 64, marginBottom: 8 },
   name: { fontSize: 22, fontWeight: '700', color: colors.text, marginBottom: 6 },
   meta: { color: colors.muted, marginBottom: 4, paddingHorizontal: 8 },
@@ -79,4 +103,6 @@ const styles = StyleSheet.create({
   instructionRow: { flexDirection: 'row', alignItems: 'flex-start', paddingHorizontal: 8 },
   bullet: { color: colors.text, marginRight: 8 },
   instructionText: { color: colors.text, flex: 1 },
+  chip: { paddingHorizontal: 8, paddingVertical: 4, backgroundColor: colors.surface, borderRadius: 16, marginRight: 8, marginBottom: 6 },
+  chipText: { color: colors.text, fontSize: 12 },
 });

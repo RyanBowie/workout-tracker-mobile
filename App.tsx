@@ -8,6 +8,7 @@ import TemplatesScreen from './src/screens/TemplatesScreen';
 import WorkoutScreen from './src/screens/WorkoutScreen';
 import ExerciseDetail from './src/screens/ExerciseDetail';
 import ProgressScreen from './src/screens/ProgressScreen';
+import HistoryScreen from './src/screens/HistoryScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,6 +20,7 @@ export default function App() {
           <Stack.Navigator initialRouteName="Login">
             <Stack.Screen name="Login" component={LoginScreen} />
             <Stack.Screen name="Templates" component={TemplatesScreen} />
+            <Stack.Screen name="History" component={HistoryScreen} />
             <Stack.Screen name="Workout" component={WorkoutScreen} />
             <Stack.Screen name="Exercise" component={ExerciseDetail} />
             <Stack.Screen name="Progress" component={ProgressScreen} />

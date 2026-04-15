@@ -25,7 +25,7 @@
         "Descend by bending hips and knees to at least parallel while keeping chest up.",
         "Drive through mid-foot to return to standing; brace core throughout."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-back-squat",
+      "image": "assets/exercises/barbell-back-squat.png",
       "icon": "https://via.placeholder.com/96?text=barbell-back-squat",
       "iconEmoji": "🏋️‍♂️",
       "howTo": "1. Set up bar across upper back and unrack with feet shoulder-width.\n2. Descend by bending hips and knees to at least parallel while keeping chest up.\n3. Drive through mid-foot to return to standing; brace core throughout.",
@@ -33,6 +33,10 @@
         "Quads",
         "Glutes",
         "Hamstrings"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -61,7 +65,7 @@
         "Drive hips forward while keeping a neutral spine and locked lats until standing.",
         "Lower the bar with control by hinging at the hips back to the floor."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-deadlift",
+      "image": "assets/exercises/barbell-deadlift.png",
       "icon": "https://via.placeholder.com/96?text=barbell-deadlift",
       "iconEmoji": "🏋️‍♂️",
       "howTo": "1. Stand with feet under the bar, hinge at hips and grip bar outside knees.\n2. Drive hips forward while keeping a neutral spine and locked lats until standing.\n3. Lower the bar with control by hinging at the hips back to the floor.",
@@ -70,6 +74,10 @@
         "Glutes",
         "Hamstrings",
         "Back"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -97,7 +105,7 @@
         "Unrack the bar, lower to mid-chest with control, then press to full extension.",
         "Keep wrists neutral and drive feet/hips for stability on heavy sets."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-bench-press",
+      "image": "assets/exercises/barbell-bench-press.png",
       "icon": "https://via.placeholder.com/96?text=barbell-bench-press",
       "iconEmoji": "🏋️‍♂️",
       "howTo": "1. Lie on bench with eyes under the bar, retract shoulder blades and plant feet.\n2. Unrack the bar, lower to mid-chest with control, then press to full extension.\n3. Keep wrists neutral and drive feet/hips for stability on heavy sets.",
@@ -105,6 +113,10 @@
         "Chest",
         "Triceps",
         "Shoulders"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -131,13 +143,17 @@
         "Pull the bar to your lower ribs while squeezing shoulder blades together.",
         "Control the descent and avoid excessive torso movement."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-bent-over-row",
+      "image": "assets/exercises/barbell-bent-over-row.png",
       "icon": "https://via.placeholder.com/96?text=barbell-bent-over-row",
       "iconEmoji": "🏋️‍♂️",
       "howTo": "1. Hinge at the hips to a flat back and grip the bar slightly wider than knees.\n2. Pull the bar to your lower ribs while squeezing shoulder blades together.\n3. Control the descent and avoid excessive torso movement.",
       "muscles": [
         "Back",
         "Biceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -164,13 +180,17 @@
         "Press overhead until arms are extended without shrugging excessively.",
         "Lower with control to the start position."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-overhead-press",
+      "image": "assets/exercises/dumbbell-overhead-press.png",
       "icon": "https://via.placeholder.com/96?text=dumbbell-overhead-press",
       "iconEmoji": "🏋️‍♀️",
       "howTo": "1. Stand with dumbbells at shoulder height and a braced core.\n2. Press overhead until arms are extended without shrugging excessively.\n3. Lower with control to the start position.",
       "muscles": [
         "Shoulders",
         "Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -197,13 +217,17 @@
         "Pull chest toward the bar by driving elbows down and back until chin clears.",
         "Lower with control to full hang."
       ],
-      "image": "https://via.placeholder.com/400x300?text=pull-up",
+      "image": "assets/exercises/pull-up.png",
       "icon": "https://via.placeholder.com/96?text=pull-up",
       "iconEmoji": "🤸‍♂️",
       "howTo": "1. Grip the bar slightly wider than shoulder-width and hang fully.\n2. Pull chest toward the bar by driving elbows down and back until chin clears.\n3. Lower with control to full hang.",
       "muscles": [
         "Back",
         "Biceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -231,7 +255,7 @@
         "Press the weights up and slightly together, then lower under control.",
         "Focus on upper-chest contraction and avoid flaring elbows excessively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-incline-press",
+      "image": "assets/exercises/dumbbell-incline-press.png",
       "icon": "https://via.placeholder.com/96?text=dumbbell-incline-press",
       "iconEmoji": "🏋️‍♀️",
       "howTo": "1. Lie back on an incline bench with dumbbells at chest level.\n2. Press the weights up and slightly together, then lower under control.\n3. Focus on upper-chest contraction and avoid flaring elbows excessively.",
@@ -239,6 +263,10 @@
         "Upper Chest",
         "Shoulders",
         "Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -265,13 +293,17 @@
         "Push through the front heel to step forward and repeat, keeping torso upright.",
         "Alternate legs and maintain steady tempo for balance."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-walking-lunge",
+      "image": "assets/exercises/dumbbell-walking-lunge.png",
       "icon": "https://via.placeholder.com/96?text=dumbbell-walking-lunge",
       "iconEmoji": "🏋️‍♀️",
       "howTo": "1. Hold dumbbells at your sides and step forward into a deep lunge.\n2. Push through the front heel to step forward and repeat, keeping torso upright.\n3. Alternate legs and maintain steady tempo for balance.",
       "muscles": [
         "Quads",
         "Glutes"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -296,12 +328,16 @@
         "Bring hands together in front of chest with a soft bend in elbows and squeeze.",
         "Return under control to the start keeping tension on the chest."
       ],
-      "image": "https://via.placeholder.com/400x300?text=cable-fly",
+      "image": "assets/exercises/cable-fly.png",
       "icon": "https://via.placeholder.com/96?text=cable-fly",
       "iconEmoji": "🪢",
       "howTo": "1. Set pulleys to chest height and hold handles with a slight forward lean.\n2. Bring hands together in front of chest with a soft bend in elbows and squeeze.\n3. Return under control to the start keeping tension on the chest.",
       "muscles": [
         "Chest"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -328,13 +364,17 @@
         "Drive elbows back and squeeze shoulder blades together as you row.",
         "Control the return and avoid leaning excessively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=seated-cable-row",
+      "image": "assets/exercises/seated-cable-row.png",
       "icon": "https://via.placeholder.com/96?text=seated-cable-row",
       "iconEmoji": "🪢",
       "howTo": "1. Sit tall with knees slightly bent and a neutral spine, grip the handle.\n2. Drive elbows back and squeeze shoulder blades together as you row.\n3. Control the return and avoid leaning excessively.",
       "muscles": [
         "Back",
         "Biceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -359,12 +399,16 @@
         "Press back up to full elbow extension focusing on chest/triceps drive.",
         "Keep shoulders down and avoid excessive forward lean if shoulder pain occurs."
       ],
-      "image": "https://via.placeholder.com/400x300?text=bodyweight-dip",
+      "image": "assets/exercises/bodyweight-dip.png",
       "icon": "https://via.placeholder.com/96?text=bodyweight-dip",
       "iconEmoji": "🤸‍♂️",
       "howTo": "1. Grip parallel bars and lower body by bending elbows to about 90 degrees.\n2. Press back up to full elbow extension focusing on chest/triceps drive.\n3. Keep shoulders down and avoid excessive forward lean if shoulder pain occurs.",
       "muscles": [
         "Chest/Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -391,13 +435,17 @@
         "Lower until front thigh is near parallel, then drive through the front heel.",
         "Keep weight evenly balanced and control the descent."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-split-squat",
+      "image": "assets/exercises/barbell-split-squat.png",
       "icon": "https://via.placeholder.com/96?text=barbell-split-squat",
       "iconEmoji": "🏋️‍♂️",
       "howTo": "1. Set one foot forward and one back with bar on your back, keep torso upright.\n2. Lower until front thigh is near parallel, then drive through the front heel.\n3. Keep weight evenly balanced and control the descent.",
       "muscles": [
         "Quads",
         "Glutes"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -422,12 +470,16 @@
         "Extend the elbows fully while keeping upper arms still, then return slowly.",
         "Focus on squeezing the triceps at the bottom of each rep."
       ],
-      "image": "https://via.placeholder.com/400x300?text=cable-triceps-pushdown",
+      "image": "assets/exercises/cable-triceps-pushdown.png",
       "icon": "https://via.placeholder.com/96?text=cable-triceps-pushdown",
       "iconEmoji": "🪢",
       "howTo": "1. Stand upright and grip the bar with elbows pinned to your sides.\n2. Extend the elbows fully while keeping upper arms still, then return slowly.\n3. Focus on squeezing the triceps at the bottom of each rep.",
       "muscles": [
         "Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -452,12 +504,16 @@
         "Squeeze at the top and lower under control to full extension.",
         "Avoid swinging; use controlled tempo for muscle tension."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-biceps-curl",
+      "image": "assets/exercises/dumbbell-biceps-curl.png",
       "icon": "https://via.placeholder.com/96?text=dumbbell-biceps-curl",
       "iconEmoji": "🏋️‍♀️",
       "howTo": "1. Stand with dumbbells at your sides and curl with elbows stationary.\n2. Squeeze at the top and lower under control to full extension.\n3. Avoid swinging; use controlled tempo for muscle tension.",
       "muscles": [
         "Biceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -485,7 +541,7 @@
         "Press the weights up until arms are extended, then lower slowly.",
         "Keep shoulder blades packed and maintain even range of motion."
       ],
-      "image": "https://via.placeholder.com/400x300?text=flat-bench-dumbbell-press",
+      "image": "assets/exercises/flat-bench-dumbbell-press.png",
       "icon": "https://via.placeholder.com/96?text=flat-bench-dumbbell-press",
       "iconEmoji": "🏋️‍♀️",
       "howTo": "1. Lie back on a flat bench holding dumbbells at chest level.\n2. Press the weights up until arms are extended, then lower slowly.\n3. Keep shoulder blades packed and maintain even range of motion.",
@@ -493,6 +549,10 @@
         "Chest",
         "Shoulders",
         "Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -519,13 +579,17 @@
         "Lower the sled until knees are about 90 degrees, then press back to start.",
         "Avoid locking knees at full extension."
       ],
-      "image": "https://via.placeholder.com/400x300?text=leg-press-machine",
+      "image": "assets/exercises/leg-press-machine.png",
       "icon": "https://via.placeholder.com/96?text=leg-press-machine",
       "iconEmoji": "🏋️",
       "howTo": "1. Sit on the machine with feet shoulder-width on the plate and controlled range.\n2. Lower the sled until knees are about 90 degrees, then press back to start.\n3. Avoid locking knees at full extension.",
       "muscles": [
         "Quads",
         "Glutes"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -553,7 +617,7 @@
         "Explosively extend hips to swing to chest height while bracing the core.",
         "Control the downswing and reset before the next rep."
       ],
-      "image": "https://via.placeholder.com/400x300?text=kettlebell-swing",
+      "image": "assets/exercises/kettlebell-swing.png",
       "icon": "https://via.placeholder.com/96?text=kettlebell-swing",
       "iconEmoji": "🏋️",
       "howTo": "1. Stand with feet slightly wider than hip-width and hinge at hips to swing the bell.\n2. Explosively extend hips to swing to chest height while bracing the core.\n3. Control the downswing and reset before the next rep.",
@@ -561,6 +625,10 @@
         "Hamstrings/Glutes",
         "Core",
         "Back"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     },
     {
@@ -587,13 +655,17 @@
         "Press handles up until arms are extended, then lower under control.",
         "Use a full range without locking out aggressively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=seated-machine-shoulder-press",
+      "image": "assets/exercises/seated-machine-shoulder-press.png",
       "icon": "https://via.placeholder.com/96?text=seated-machine-shoulder-press",
       "iconEmoji": "🏋️",
       "howTo": "1. Adjust seat so handles align with mid-shoulder and keep back against pad.\n2. Press handles up until arms are extended, then lower under control.\n3. Use a full range without locking out aggressively.",
       "muscles": [
         "Shoulders",
         "Triceps"
+      ],
+      "tips": [
+        "Start lighter to warm up",
+        "Focus on form"
       ]
     }
   ],
