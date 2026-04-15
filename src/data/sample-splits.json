@@ -5,11 +5,19 @@
       "name": "Barbell Back Squat",
       "primary_muscle": "Quads",
       "equipment": "barbell",
-      "secondaryMuscles": ["Glutes", "Hamstrings"],
+      "secondaryMuscles": [
+        "Glutes",
+        "Hamstrings"
+      ],
       "defaultSets": 4,
       "defaultReps": 6,
       "exampleSets": [
-        { "sets": 4, "reps": 6, "weight": "progressive", "rest_seconds": 120 }
+        {
+          "sets": 4,
+          "reps": 6,
+          "weight": "progressive",
+          "rest_seconds": 120
+        }
       ],
       "description": "Compound lower-body strength movement targeting quads and glutes.",
       "instructions": [
@@ -17,18 +25,35 @@
         "Descend by bending hips and knees to at least parallel while keeping chest up.",
         "Drive through mid-foot to return to standing; brace core throughout."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-back-squat"
+      "image": "https://via.placeholder.com/400x300?text=barbell-back-squat",
+      "icon": "https://via.placeholder.com/96?text=barbell-back-squat",
+      "iconEmoji": "🏋️‍♂️",
+      "howTo": "1. Set up bar across upper back and unrack with feet shoulder-width.\n2. Descend by bending hips and knees to at least parallel while keeping chest up.\n3. Drive through mid-foot to return to standing; brace core throughout.",
+      "muscles": [
+        "Quads",
+        "Glutes",
+        "Hamstrings"
+      ]
     },
     {
       "id": "barbell-deadlift",
       "name": "Barbell Deadlift",
       "primary_muscle": "Posterior Chain",
       "equipment": "barbell",
-      "secondaryMuscles": ["Glutes", "Hamstrings", "Back"],
+      "secondaryMuscles": [
+        "Glutes",
+        "Hamstrings",
+        "Back"
+      ],
       "defaultSets": 3,
       "defaultReps": 5,
       "exampleSets": [
-        { "sets": 3, "reps": 5, "weight": "heavy", "rest_seconds": 180 }
+        {
+          "sets": 3,
+          "reps": 5,
+          "weight": "heavy",
+          "rest_seconds": 180
+        }
       ],
       "description": "Full-body hinge focusing on posterior chain strength and hip drive.",
       "instructions": [
@@ -36,18 +61,35 @@
         "Drive hips forward while keeping a neutral spine and locked lats until standing.",
         "Lower the bar with control by hinging at the hips back to the floor."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-deadlift"
+      "image": "https://via.placeholder.com/400x300?text=barbell-deadlift",
+      "icon": "https://via.placeholder.com/96?text=barbell-deadlift",
+      "iconEmoji": "🏋️‍♂️",
+      "howTo": "1. Stand with feet under the bar, hinge at hips and grip bar outside knees.\n2. Drive hips forward while keeping a neutral spine and locked lats until standing.\n3. Lower the bar with control by hinging at the hips back to the floor.",
+      "muscles": [
+        "Posterior Chain",
+        "Glutes",
+        "Hamstrings",
+        "Back"
+      ]
     },
     {
       "id": "barbell-bench-press",
       "name": "Barbell Bench Press",
       "primary_muscle": "Chest",
       "equipment": "barbell",
-      "secondaryMuscles": ["Triceps", "Shoulders"],
+      "secondaryMuscles": [
+        "Triceps",
+        "Shoulders"
+      ],
       "defaultSets": 4,
       "defaultReps": 6,
       "exampleSets": [
-        { "sets": 4, "reps": 6, "weight": "heavy", "rest_seconds": 120 }
+        {
+          "sets": 4,
+          "reps": 6,
+          "weight": "heavy",
+          "rest_seconds": 120
+        }
       ],
       "description": "Foundational pressing movement to build chest strength.",
       "instructions": [
@@ -55,18 +97,33 @@
         "Unrack the bar, lower to mid-chest with control, then press to full extension.",
         "Keep wrists neutral and drive feet/hips for stability on heavy sets."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-bench-press"
+      "image": "https://via.placeholder.com/400x300?text=barbell-bench-press",
+      "icon": "https://via.placeholder.com/96?text=barbell-bench-press",
+      "iconEmoji": "🏋️‍♂️",
+      "howTo": "1. Lie on bench with eyes under the bar, retract shoulder blades and plant feet.\n2. Unrack the bar, lower to mid-chest with control, then press to full extension.\n3. Keep wrists neutral and drive feet/hips for stability on heavy sets.",
+      "muscles": [
+        "Chest",
+        "Triceps",
+        "Shoulders"
+      ]
     },
     {
       "id": "barbell-bent-over-row",
       "name": "Barbell Bent-Over Row",
       "primary_muscle": "Back",
       "equipment": "barbell",
-      "secondaryMuscles": ["Biceps"],
+      "secondaryMuscles": [
+        "Biceps"
+      ],
       "defaultSets": 4,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 4, "reps": 8, "weight": "challenging", "rest_seconds": 90 }
+        {
+          "sets": 4,
+          "reps": 8,
+          "weight": "challenging",
+          "rest_seconds": 90
+        }
       ],
       "description": "Horizontal pull building mid-back thickness and strength.",
       "instructions": [
@@ -74,18 +131,32 @@
         "Pull the bar to your lower ribs while squeezing shoulder blades together.",
         "Control the descent and avoid excessive torso movement."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-bent-over-row"
+      "image": "https://via.placeholder.com/400x300?text=barbell-bent-over-row",
+      "icon": "https://via.placeholder.com/96?text=barbell-bent-over-row",
+      "iconEmoji": "🏋️‍♂️",
+      "howTo": "1. Hinge at the hips to a flat back and grip the bar slightly wider than knees.\n2. Pull the bar to your lower ribs while squeezing shoulder blades together.\n3. Control the descent and avoid excessive torso movement.",
+      "muscles": [
+        "Back",
+        "Biceps"
+      ]
     },
     {
       "id": "dumbbell-overhead-press",
       "name": "Dumbbell Overhead Press",
       "primary_muscle": "Shoulders",
       "equipment": "dumbbell",
-      "secondaryMuscles": ["Triceps"],
+      "secondaryMuscles": [
+        "Triceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Dumbbell standing press to build shoulder stability and size.",
       "instructions": [
@@ -93,18 +164,32 @@
         "Press overhead until arms are extended without shrugging excessively.",
         "Lower with control to the start position."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-overhead-press"
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-overhead-press",
+      "icon": "https://via.placeholder.com/96?text=dumbbell-overhead-press",
+      "iconEmoji": "🏋️‍♀️",
+      "howTo": "1. Stand with dumbbells at shoulder height and a braced core.\n2. Press overhead until arms are extended without shrugging excessively.\n3. Lower with control to the start position.",
+      "muscles": [
+        "Shoulders",
+        "Triceps"
+      ]
     },
     {
       "id": "pull-up",
       "name": "Pull-up",
       "primary_muscle": "Back",
       "equipment": "bodyweight",
-      "secondaryMuscles": ["Biceps"],
+      "secondaryMuscles": [
+        "Biceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "bodyweight or assisted/weighted", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "bodyweight or assisted/weighted",
+          "rest_seconds": 90
+        }
       ],
       "description": "Vertical pulling movement for lat and upper-back development.",
       "instructions": [
@@ -112,18 +197,33 @@
         "Pull chest toward the bar by driving elbows down and back until chin clears.",
         "Lower with control to full hang."
       ],
-      "image": "https://via.placeholder.com/400x300?text=pull-up"
+      "image": "https://via.placeholder.com/400x300?text=pull-up",
+      "icon": "https://via.placeholder.com/96?text=pull-up",
+      "iconEmoji": "🤸‍♂️",
+      "howTo": "1. Grip the bar slightly wider than shoulder-width and hang fully.\n2. Pull chest toward the bar by driving elbows down and back until chin clears.\n3. Lower with control to full hang.",
+      "muscles": [
+        "Back",
+        "Biceps"
+      ]
     },
     {
       "id": "dumbbell-incline-press",
       "name": "Dumbbell Incline Press",
       "primary_muscle": "Upper Chest",
       "equipment": "dumbbell",
-      "secondaryMuscles": ["Shoulders", "Triceps"],
+      "secondaryMuscles": [
+        "Shoulders",
+        "Triceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Upper-chest focused press performed on an incline bench.",
       "instructions": [
@@ -131,18 +231,33 @@
         "Press the weights up and slightly together, then lower under control.",
         "Focus on upper-chest contraction and avoid flaring elbows excessively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-incline-press"
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-incline-press",
+      "icon": "https://via.placeholder.com/96?text=dumbbell-incline-press",
+      "iconEmoji": "🏋️‍♀️",
+      "howTo": "1. Lie back on an incline bench with dumbbells at chest level.\n2. Press the weights up and slightly together, then lower under control.\n3. Focus on upper-chest contraction and avoid flaring elbows excessively.",
+      "muscles": [
+        "Upper Chest",
+        "Shoulders",
+        "Triceps"
+      ]
     },
     {
       "id": "dumbbell-walking-lunge",
       "name": "Dumbbell Walking Lunge",
       "primary_muscle": "Quads",
       "equipment": "dumbbell",
-      "secondaryMuscles": ["Glutes"],
+      "secondaryMuscles": [
+        "Glutes"
+      ],
       "defaultSets": 3,
       "defaultReps": 10,
       "exampleSets": [
-        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 10,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Unilateral leg work for balance, core stability, and quad development.",
       "instructions": [
@@ -150,7 +265,14 @@
         "Push through the front heel to step forward and repeat, keeping torso upright.",
         "Alternate legs and maintain steady tempo for balance."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-walking-lunge"
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-walking-lunge",
+      "icon": "https://via.placeholder.com/96?text=dumbbell-walking-lunge",
+      "iconEmoji": "🏋️‍♀️",
+      "howTo": "1. Hold dumbbells at your sides and step forward into a deep lunge.\n2. Push through the front heel to step forward and repeat, keeping torso upright.\n3. Alternate legs and maintain steady tempo for balance.",
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ]
     },
     {
       "id": "cable-fly",
@@ -161,7 +283,12 @@
       "defaultSets": 3,
       "defaultReps": 12,
       "exampleSets": [
-        { "sets": 3, "reps": 12, "weight": "light-moderate", "rest_seconds": 60 }
+        {
+          "sets": 3,
+          "reps": 12,
+          "weight": "light-moderate",
+          "rest_seconds": 60
+        }
       ],
       "description": "Isolation movement for chest shape and contraction using cables.",
       "instructions": [
@@ -169,18 +296,31 @@
         "Bring hands together in front of chest with a soft bend in elbows and squeeze.",
         "Return under control to the start keeping tension on the chest."
       ],
-      "image": "https://via.placeholder.com/400x300?text=cable-fly"
+      "image": "https://via.placeholder.com/400x300?text=cable-fly",
+      "icon": "https://via.placeholder.com/96?text=cable-fly",
+      "iconEmoji": "🪢",
+      "howTo": "1. Set pulleys to chest height and hold handles with a slight forward lean.\n2. Bring hands together in front of chest with a soft bend in elbows and squeeze.\n3. Return under control to the start keeping tension on the chest.",
+      "muscles": [
+        "Chest"
+      ]
     },
     {
       "id": "seated-cable-row",
       "name": "Seated Cable Row",
       "primary_muscle": "Back",
       "equipment": "cable",
-      "secondaryMuscles": ["Biceps"],
+      "secondaryMuscles": [
+        "Biceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 10,
       "exampleSets": [
-        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 10,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Controlled horizontal pull for lats and mid-back engagement.",
       "instructions": [
@@ -188,7 +328,14 @@
         "Drive elbows back and squeeze shoulder blades together as you row.",
         "Control the return and avoid leaning excessively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=seated-cable-row"
+      "image": "https://via.placeholder.com/400x300?text=seated-cable-row",
+      "icon": "https://via.placeholder.com/96?text=seated-cable-row",
+      "iconEmoji": "🪢",
+      "howTo": "1. Sit tall with knees slightly bent and a neutral spine, grip the handle.\n2. Drive elbows back and squeeze shoulder blades together as you row.\n3. Control the return and avoid leaning excessively.",
+      "muscles": [
+        "Back",
+        "Biceps"
+      ]
     },
     {
       "id": "bodyweight-dip",
@@ -199,7 +346,12 @@
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "bodyweight or weighted", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "bodyweight or weighted",
+          "rest_seconds": 90
+        }
       ],
       "description": "Upper-body pressing variation emphasizing lower chest and triceps.",
       "instructions": [
@@ -207,18 +359,31 @@
         "Press back up to full elbow extension focusing on chest/triceps drive.",
         "Keep shoulders down and avoid excessive forward lean if shoulder pain occurs."
       ],
-      "image": "https://via.placeholder.com/400x300?text=bodyweight-dip"
+      "image": "https://via.placeholder.com/400x300?text=bodyweight-dip",
+      "icon": "https://via.placeholder.com/96?text=bodyweight-dip",
+      "iconEmoji": "🤸‍♂️",
+      "howTo": "1. Grip parallel bars and lower body by bending elbows to about 90 degrees.\n2. Press back up to full elbow extension focusing on chest/triceps drive.\n3. Keep shoulders down and avoid excessive forward lean if shoulder pain occurs.",
+      "muscles": [
+        "Chest/Triceps"
+      ]
     },
     {
       "id": "barbell-split-squat",
       "name": "Barbell Split Squat",
       "primary_muscle": "Quads",
       "equipment": "barbell",
-      "secondaryMuscles": ["Glutes"],
+      "secondaryMuscles": [
+        "Glutes"
+      ],
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "challenging", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "challenging",
+          "rest_seconds": 90
+        }
       ],
       "description": "Single-leg barbell split squat for strength and balance.",
       "instructions": [
@@ -226,7 +391,14 @@
         "Lower until front thigh is near parallel, then drive through the front heel.",
         "Keep weight evenly balanced and control the descent."
       ],
-      "image": "https://via.placeholder.com/400x300?text=barbell-split-squat"
+      "image": "https://via.placeholder.com/400x300?text=barbell-split-squat",
+      "icon": "https://via.placeholder.com/96?text=barbell-split-squat",
+      "iconEmoji": "🏋️‍♂️",
+      "howTo": "1. Set one foot forward and one back with bar on your back, keep torso upright.\n2. Lower until front thigh is near parallel, then drive through the front heel.\n3. Keep weight evenly balanced and control the descent.",
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ]
     },
     {
       "id": "cable-triceps-pushdown",
@@ -237,7 +409,12 @@
       "defaultSets": 3,
       "defaultReps": 12,
       "exampleSets": [
-        { "sets": 3, "reps": 12, "weight": "moderate", "rest_seconds": 60 }
+        {
+          "sets": 3,
+          "reps": 12,
+          "weight": "moderate",
+          "rest_seconds": 60
+        }
       ],
       "description": "Isolation triceps movement using a cable pulley for constant tension.",
       "instructions": [
@@ -245,7 +422,13 @@
         "Extend the elbows fully while keeping upper arms still, then return slowly.",
         "Focus on squeezing the triceps at the bottom of each rep."
       ],
-      "image": "https://via.placeholder.com/400x300?text=cable-triceps-pushdown"
+      "image": "https://via.placeholder.com/400x300?text=cable-triceps-pushdown",
+      "icon": "https://via.placeholder.com/96?text=cable-triceps-pushdown",
+      "iconEmoji": "🪢",
+      "howTo": "1. Stand upright and grip the bar with elbows pinned to your sides.\n2. Extend the elbows fully while keeping upper arms still, then return slowly.\n3. Focus on squeezing the triceps at the bottom of each rep.",
+      "muscles": [
+        "Triceps"
+      ]
     },
     {
       "id": "dumbbell-biceps-curl",
@@ -256,7 +439,12 @@
       "defaultSets": 3,
       "defaultReps": 12,
       "exampleSets": [
-        { "sets": 3, "reps": 12, "weight": "moderate", "rest_seconds": 60 }
+        {
+          "sets": 3,
+          "reps": 12,
+          "weight": "moderate",
+          "rest_seconds": 60
+        }
       ],
       "description": "Classic arm isolation for biceps peak and strength.",
       "instructions": [
@@ -264,18 +452,32 @@
         "Squeeze at the top and lower under control to full extension.",
         "Avoid swinging; use controlled tempo for muscle tension."
       ],
-      "image": "https://via.placeholder.com/400x300?text=dumbbell-biceps-curl"
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-biceps-curl",
+      "icon": "https://via.placeholder.com/96?text=dumbbell-biceps-curl",
+      "iconEmoji": "🏋️‍♀️",
+      "howTo": "1. Stand with dumbbells at your sides and curl with elbows stationary.\n2. Squeeze at the top and lower under control to full extension.\n3. Avoid swinging; use controlled tempo for muscle tension.",
+      "muscles": [
+        "Biceps"
+      ]
     },
     {
       "id": "flat-bench-dumbbell-press",
       "name": "Flat Dumbbell Bench Press",
       "primary_muscle": "Chest",
-      "equipment": "bench",
-      "secondaryMuscles": ["Shoulders", "Triceps"],
+      "equipment": "dumbbell",
+      "secondaryMuscles": [
+        "Shoulders",
+        "Triceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 8,
       "exampleSets": [
-        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 8,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Bench-based dumbbell press to build balanced chest strength with a greater range of motion.",
       "instructions": [
@@ -283,18 +485,33 @@
         "Press the weights up until arms are extended, then lower slowly.",
         "Keep shoulder blades packed and maintain even range of motion."
       ],
-      "image": "https://via.placeholder.com/400x300?text=flat-bench-dumbbell-press"
+      "image": "https://via.placeholder.com/400x300?text=flat-bench-dumbbell-press",
+      "icon": "https://via.placeholder.com/96?text=flat-bench-dumbbell-press",
+      "iconEmoji": "🏋️‍♀️",
+      "howTo": "1. Lie back on a flat bench holding dumbbells at chest level.\n2. Press the weights up until arms are extended, then lower slowly.\n3. Keep shoulder blades packed and maintain even range of motion.",
+      "muscles": [
+        "Chest",
+        "Shoulders",
+        "Triceps"
+      ]
     },
     {
       "id": "leg-press-machine",
       "name": "Leg Press (Machine)",
       "primary_muscle": "Quads",
       "equipment": "machine",
-      "secondaryMuscles": ["Glutes"],
+      "secondaryMuscles": [
+        "Glutes"
+      ],
       "defaultSets": 3,
       "defaultReps": 10,
       "exampleSets": [
-        { "sets": 3, "reps": 10, "weight": "heavy-moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 10,
+          "weight": "heavy-moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Machine leg press to load the quads with controlled foot position and reduced back strain.",
       "instructions": [
@@ -302,18 +519,33 @@
         "Lower the sled until knees are about 90 degrees, then press back to start.",
         "Avoid locking knees at full extension."
       ],
-      "image": "https://via.placeholder.com/400x300?text=leg-press-machine"
+      "image": "https://via.placeholder.com/400x300?text=leg-press-machine",
+      "icon": "https://via.placeholder.com/96?text=leg-press-machine",
+      "iconEmoji": "🏋️",
+      "howTo": "1. Sit on the machine with feet shoulder-width on the plate and controlled range.\n2. Lower the sled until knees are about 90 degrees, then press back to start.\n3. Avoid locking knees at full extension.",
+      "muscles": [
+        "Quads",
+        "Glutes"
+      ]
     },
     {
       "id": "kettlebell-swing",
       "name": "Kettlebell Swing",
       "primary_muscle": "Hamstrings/Glutes",
       "equipment": "kettlebell",
-      "secondaryMuscles": ["Core", "Back"],
+      "secondaryMuscles": [
+        "Core",
+        "Back"
+      ],
       "defaultSets": 3,
       "defaultReps": 15,
       "exampleSets": [
-        { "sets": 3, "reps": 15, "weight": "moderate", "rest_seconds": 60 }
+        {
+          "sets": 3,
+          "reps": 15,
+          "weight": "moderate",
+          "rest_seconds": 60
+        }
       ],
       "description": "Explosive hip hinge movement for posterior chain power and conditioning.",
       "instructions": [
@@ -321,18 +553,33 @@
         "Explosively extend hips to swing to chest height while bracing the core.",
         "Control the downswing and reset before the next rep."
       ],
-      "image": "https://via.placeholder.com/400x300?text=kettlebell-swing"
+      "image": "https://via.placeholder.com/400x300?text=kettlebell-swing",
+      "icon": "https://via.placeholder.com/96?text=kettlebell-swing",
+      "iconEmoji": "🏋️",
+      "howTo": "1. Stand with feet slightly wider than hip-width and hinge at hips to swing the bell.\n2. Explosively extend hips to swing to chest height while bracing the core.\n3. Control the downswing and reset before the next rep.",
+      "muscles": [
+        "Hamstrings/Glutes",
+        "Core",
+        "Back"
+      ]
     },
     {
       "id": "seated-machine-shoulder-press",
       "name": "Seated Machine Shoulder Press",
       "primary_muscle": "Shoulders",
       "equipment": "machine",
-      "secondaryMuscles": ["Triceps"],
+      "secondaryMuscles": [
+        "Triceps"
+      ],
       "defaultSets": 3,
       "defaultReps": 10,
       "exampleSets": [
-        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+        {
+          "sets": 3,
+          "reps": 10,
+          "weight": "moderate",
+          "rest_seconds": 90
+        }
       ],
       "description": "Machine-based shoulder press offering stability and consistent range of motion.",
       "instructions": [
@@ -340,7 +587,14 @@
         "Press handles up until arms are extended, then lower under control.",
         "Use a full range without locking out aggressively."
       ],
-      "image": "https://via.placeholder.com/400x300?text=seated-machine-shoulder-press"
+      "image": "https://via.placeholder.com/400x300?text=seated-machine-shoulder-press",
+      "icon": "https://via.placeholder.com/96?text=seated-machine-shoulder-press",
+      "iconEmoji": "🏋️",
+      "howTo": "1. Adjust seat so handles align with mid-shoulder and keep back against pad.\n2. Press handles up until arms are extended, then lower under control.\n3. Use a full range without locking out aggressively.",
+      "muscles": [
+        "Shoulders",
+        "Triceps"
+      ]
     }
   ],
   "templates": [
@@ -352,15 +606,32 @@
       "sessions": [
         {
           "name": "Push",
-          "exercises": ["barbell-bench-press", "dumbbell-incline-press", "dumbbell-overhead-press", "cable-triceps-pushdown", "flat-bench-dumbbell-press"]
+          "exercises": [
+            "barbell-bench-press",
+            "dumbbell-incline-press",
+            "dumbbell-overhead-press",
+            "cable-triceps-pushdown",
+            "flat-bench-dumbbell-press"
+          ]
         },
         {
           "name": "Pull",
-          "exercises": ["barbell-bent-over-row", "pull-up", "seated-cable-row", "dumbbell-biceps-curl"]
+          "exercises": [
+            "barbell-bent-over-row",
+            "pull-up",
+            "seated-cable-row",
+            "dumbbell-biceps-curl"
+          ]
         },
         {
           "name": "Legs",
-          "exercises": ["barbell-back-squat", "barbell-split-squat", "dumbbell-walking-lunge", "barbell-deadlift", "leg-press-machine"]
+          "exercises": [
+            "barbell-back-squat",
+            "barbell-split-squat",
+            "dumbbell-walking-lunge",
+            "barbell-deadlift",
+            "leg-press-machine"
+          ]
         }
       ]
     },
@@ -372,11 +643,22 @@
       "sessions": [
         {
           "name": "Upper",
-          "exercises": ["barbell-bench-press", "barbell-bent-over-row", "dumbbell-overhead-press", "pull-up", "flat-bench-dumbbell-press"]
+          "exercises": [
+            "barbell-bench-press",
+            "barbell-bent-over-row",
+            "dumbbell-overhead-press",
+            "pull-up",
+            "flat-bench-dumbbell-press"
+          ]
         },
         {
           "name": "Lower",
-          "exercises": ["barbell-back-squat", "barbell-deadlift", "barbell-split-squat", "leg-press-machine"]
+          "exercises": [
+            "barbell-back-squat",
+            "barbell-deadlift",
+            "barbell-split-squat",
+            "leg-press-machine"
+          ]
         }
       ]
     },
@@ -386,11 +668,48 @@
       "description": "Single-muscle-focus days (Chest, Back, Legs, Shoulders, Arms) for high-volume specialization.",
       "help": "Use higher rep ranges and varied angles to target each muscle thoroughly.",
       "sessions": [
-        { "name": "Chest", "exercises": ["barbell-bench-press", "dumbbell-incline-press", "cable-fly", "flat-bench-dumbbell-press"] },
-        { "name": "Back", "exercises": ["barbell-bent-over-row", "seated-cable-row", "pull-up"] },
-        { "name": "Legs", "exercises": ["barbell-back-squat", "dumbbell-walking-lunge", "barbell-deadlift", "leg-press-machine"] },
-        { "name": "Shoulders", "exercises": ["dumbbell-overhead-press", "dumbbell-incline-press", "seated-machine-shoulder-press"] },
-        { "name": "Arms", "exercises": ["dumbbell-biceps-curl", "cable-triceps-pushdown", "bodyweight-dip"] }
+        {
+          "name": "Chest",
+          "exercises": [
+            "barbell-bench-press",
+            "dumbbell-incline-press",
+            "cable-fly",
+            "flat-bench-dumbbell-press"
+          ]
+        },
+        {
+          "name": "Back",
+          "exercises": [
+            "barbell-bent-over-row",
+            "seated-cable-row",
+            "pull-up"
+          ]
+        },
+        {
+          "name": "Legs",
+          "exercises": [
+            "barbell-back-squat",
+            "dumbbell-walking-lunge",
+            "barbell-deadlift",
+            "leg-press-machine"
+          ]
+        },
+        {
+          "name": "Shoulders",
+          "exercises": [
+            "dumbbell-overhead-press",
+            "dumbbell-incline-press",
+            "seated-machine-shoulder-press"
+          ]
+        },
+        {
+          "name": "Arms",
+          "exercises": [
+            "dumbbell-biceps-curl",
+            "cable-triceps-pushdown",
+            "bodyweight-dip"
+          ]
+        }
       ]
     },
     {
@@ -401,7 +720,13 @@
       "sessions": [
         {
           "name": "Full Body Session",
-          "exercises": ["barbell-back-squat", "barbell-bench-press", "barbell-bent-over-row", "barbell-deadlift", "kettlebell-swing"]
+          "exercises": [
+            "barbell-back-squat",
+            "barbell-bench-press",
+            "barbell-bent-over-row",
+            "barbell-deadlift",
+            "kettlebell-swing"
+          ]
         }
       ]
     }

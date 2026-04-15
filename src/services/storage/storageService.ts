@@ -108,3 +108,16 @@ export async function seedSampleSplits() {
     await AsyncStorage.setItem(SPLITS_KEY, JSON.stringify(sampleSplits, null, 2));
   }
 }
+
+// Helper to accept an entry object that may include exerciseId and createdAt
+// Keeps backwards compatibility by mapping createdAt -> date and delegating to saveWorkoutEntry
+export async function saveWorkoutEntryWithSets(entry: any) {
+  const mapped = {
+    id: entry.id,
+    templateId: entry.templateId || null,
+    date: entry.createdAt || entry.date || new Date().toISOString(),
+    sets: entry.sets || [],
+  };
+  // Delegate to existing save function which persists to SQLite or AsyncStorage
+  return await saveWorkoutEntry(mapped as any);
+}

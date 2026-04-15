@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, FlatList, Image } from 'react-native';
 import { colors } from '../theme';
+import ExerciseSetInput from '../components/ExerciseSetInput';
 
 export default function WorkoutScreen({ navigation, route }: any) {
   const template = route?.params?.template;
   const sessions = template?.sessions || [];
   const [selectedSession, setSelectedSession] = useState<any | null>(null);
+  const [expandedExercise, setExpandedExercise] = useState<string | null>(null);
 
   if (!template) {
     return (
@@ -17,6 +19,14 @@ export default function WorkoutScreen({ navigation, route }: any) {
         </TouchableOpacity>
       </View>
     );
+  }
+
+  function renderIcon(exercise: any) {
+    const placeholder = 'https://via.placeholder.com/96';
+    const uri = exercise.icon || exercise.image || null;
+    if (uri) return <Image source={{ uri }} style={styles.rowIcon} />;
+    if (exercise.iconEmoji) return <Text style={styles.emoji}>{exercise.iconEmoji}</Text>;
+    return <Image source={{ uri: placeholder }} style={styles.rowIcon} />;
   }
 
   return (
@@ -47,15 +57,33 @@ export default function WorkoutScreen({ navigation, route }: any) {
             data={selectedSession.exercises || []}
             keyExtractor={(item, idx) => item.id ? String(item.id) : String(idx)}
             renderItem={({ item }) => (
-              <TouchableOpacity
-                onPress={() => navigation.navigate('Exercise', { exercise: item, templateId: template.id })}
-                accessibilityRole="button"
-              >
-                <View style={styles.intervalRow}>
-                  <Text style={styles.intervalIndex}>{item.name}</Text>
-                  <Text style={styles.intervalText}>{item.primary_muscle || ''}</Text>
+              <View>
+                <View style={styles.exerciseRow}>
+                  {renderIcon(item)}
+                  <TouchableOpacity
+                    style={{ flex: 1 }}
+                    onPress={() => navigation.navigate('Exercise', { exercise: item, templateId: template.id })}
+                    accessibilityRole="button"
+                  >
+                    <Text style={styles.exerciseName}>{item.name}</Text>
+                    <Text style={styles.intervalText}>{item.primary_muscle || ''}</Text>
+                  </TouchableOpacity>
+
+                  <TouchableOpacity
+                    style={styles.addInline}
+                    onPress={() => setExpandedExercise(expandedExercise === item.id ? null : item.id)}
+                    accessibilityRole="button"
+                  >
+                    <Text style={{ color: colors.background, fontWeight: '700' }}>Add</Text>
+                  </TouchableOpacity>
                 </View>
-              </TouchableOpacity>
+
+                {expandedExercise === item.id ? (
+                  <View style={{ marginTop: 8 }}>
+                    <ExerciseSetInput exercise={item} templateId={template.id} compact onSaved={() => setExpandedExercise(null)} />
+                  </View>
+                ) : null}
+              </View>
             )}
             ItemSeparatorComponent={() => <View style={{ height: 8 }} />}
           />
@@ -79,4 +107,9 @@ const styles = StyleSheet.create({
   intervalText: { color: colors.text },
   backButton: { marginTop: 6, alignSelf: 'flex-start', paddingVertical: 8, paddingHorizontal: 12, borderRadius: 6, backgroundColor: 'transparent', borderWidth: 1, borderColor: 'rgba(255,255,255,0.04)' },
   backText: { color: colors.text, fontWeight: '600' },
+  exerciseRow: { flexDirection: 'row', alignItems: 'center', padding: 12, backgroundColor: colors.surface, borderRadius: 8 },
+  exerciseName: { fontWeight: '700', color: colors.primary, marginBottom: 2 },
+  rowIcon: { width: 48, height: 48, borderRadius: 6, marginRight: 12, backgroundColor: '#07151D' },
+  emoji: { fontSize: 28, marginRight: 12 },
+  addInline: { paddingVertical: 8, paddingHorizontal: 12, backgroundColor: colors.primary, borderRadius: 6 },
 });
