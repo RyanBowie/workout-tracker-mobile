@@ -1,0 +1,409 @@
+{
+  "exercises": [
+    {
+      "id": "barbell-back-squat",
+      "name": "Barbell Back Squat",
+      "primary_muscle": "Quads",
+      "equipment": "barbell",
+      "secondaryMuscles": ["Glutes", "Hamstrings"],
+      "defaultSets": 4,
+      "defaultReps": 6,
+      "exampleSets": [
+        { "sets": 4, "reps": 6, "weight": "progressive", "rest_seconds": 120 }
+      ],
+      "description": "Compound lower-body strength movement targeting quads and glutes.",
+      "instructions": [
+        "Set up bar across upper back and unrack with feet shoulder-width.",
+        "Descend by bending hips and knees to at least parallel while keeping chest up.",
+        "Drive through mid-foot to return to standing; brace core throughout."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=barbell-back-squat"
+    },
+    {
+      "id": "barbell-deadlift",
+      "name": "Barbell Deadlift",
+      "primary_muscle": "Posterior Chain",
+      "equipment": "barbell",
+      "secondaryMuscles": ["Glutes", "Hamstrings", "Back"],
+      "defaultSets": 3,
+      "defaultReps": 5,
+      "exampleSets": [
+        { "sets": 3, "reps": 5, "weight": "heavy", "rest_seconds": 180 }
+      ],
+      "description": "Full-body hinge focusing on posterior chain strength and hip drive.",
+      "instructions": [
+        "Stand with feet under the bar, hinge at hips and grip bar outside knees.",
+        "Drive hips forward while keeping a neutral spine and locked lats until standing.",
+        "Lower the bar with control by hinging at the hips back to the floor."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=barbell-deadlift"
+    },
+    {
+      "id": "barbell-bench-press",
+      "name": "Barbell Bench Press",
+      "primary_muscle": "Chest",
+      "equipment": "barbell",
+      "secondaryMuscles": ["Triceps", "Shoulders"],
+      "defaultSets": 4,
+      "defaultReps": 6,
+      "exampleSets": [
+        { "sets": 4, "reps": 6, "weight": "heavy", "rest_seconds": 120 }
+      ],
+      "description": "Foundational pressing movement to build chest strength.",
+      "instructions": [
+        "Lie on bench with eyes under the bar, retract shoulder blades and plant feet.",
+        "Unrack the bar, lower to mid-chest with control, then press to full extension.",
+        "Keep wrists neutral and drive feet/hips for stability on heavy sets."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=barbell-bench-press"
+    },
+    {
+      "id": "barbell-bent-over-row",
+      "name": "Barbell Bent-Over Row",
+      "primary_muscle": "Back",
+      "equipment": "barbell",
+      "secondaryMuscles": ["Biceps"],
+      "defaultSets": 4,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 4, "reps": 8, "weight": "challenging", "rest_seconds": 90 }
+      ],
+      "description": "Horizontal pull building mid-back thickness and strength.",
+      "instructions": [
+        "Hinge at the hips to a flat back and grip the bar slightly wider than knees.",
+        "Pull the bar to your lower ribs while squeezing shoulder blades together.",
+        "Control the descent and avoid excessive torso movement."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=barbell-bent-over-row"
+    },
+    {
+      "id": "dumbbell-overhead-press",
+      "name": "Dumbbell Overhead Press",
+      "primary_muscle": "Shoulders",
+      "equipment": "dumbbell",
+      "secondaryMuscles": ["Triceps"],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Dumbbell standing press to build shoulder stability and size.",
+      "instructions": [
+        "Stand with dumbbells at shoulder height and a braced core.",
+        "Press overhead until arms are extended without shrugging excessively.",
+        "Lower with control to the start position."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-overhead-press"
+    },
+    {
+      "id": "pull-up",
+      "name": "Pull-up",
+      "primary_muscle": "Back",
+      "equipment": "bodyweight",
+      "secondaryMuscles": ["Biceps"],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "bodyweight or assisted/weighted", "rest_seconds": 90 }
+      ],
+      "description": "Vertical pulling movement for lat and upper-back development.",
+      "instructions": [
+        "Grip the bar slightly wider than shoulder-width and hang fully.",
+        "Pull chest toward the bar by driving elbows down and back until chin clears.",
+        "Lower with control to full hang."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=pull-up"
+    },
+    {
+      "id": "dumbbell-incline-press",
+      "name": "Dumbbell Incline Press",
+      "primary_muscle": "Upper Chest",
+      "equipment": "dumbbell",
+      "secondaryMuscles": ["Shoulders", "Triceps"],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Upper-chest focused press performed on an incline bench.",
+      "instructions": [
+        "Lie back on an incline bench with dumbbells at chest level.",
+        "Press the weights up and slightly together, then lower under control.",
+        "Focus on upper-chest contraction and avoid flaring elbows excessively."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-incline-press"
+    },
+    {
+      "id": "dumbbell-walking-lunge",
+      "name": "Dumbbell Walking Lunge",
+      "primary_muscle": "Quads",
+      "equipment": "dumbbell",
+      "secondaryMuscles": ["Glutes"],
+      "defaultSets": 3,
+      "defaultReps": 10,
+      "exampleSets": [
+        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Unilateral leg work for balance, core stability, and quad development.",
+      "instructions": [
+        "Hold dumbbells at your sides and step forward into a deep lunge.",
+        "Push through the front heel to step forward and repeat, keeping torso upright.",
+        "Alternate legs and maintain steady tempo for balance."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-walking-lunge"
+    },
+    {
+      "id": "cable-fly",
+      "name": "Cable Fly",
+      "primary_muscle": "Chest",
+      "equipment": "cable",
+      "secondaryMuscles": [],
+      "defaultSets": 3,
+      "defaultReps": 12,
+      "exampleSets": [
+        { "sets": 3, "reps": 12, "weight": "light-moderate", "rest_seconds": 60 }
+      ],
+      "description": "Isolation movement for chest shape and contraction using cables.",
+      "instructions": [
+        "Set pulleys to chest height and hold handles with a slight forward lean.",
+        "Bring hands together in front of chest with a soft bend in elbows and squeeze.",
+        "Return under control to the start keeping tension on the chest."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=cable-fly"
+    },
+    {
+      "id": "seated-cable-row",
+      "name": "Seated Cable Row",
+      "primary_muscle": "Back",
+      "equipment": "cable",
+      "secondaryMuscles": ["Biceps"],
+      "defaultSets": 3,
+      "defaultReps": 10,
+      "exampleSets": [
+        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Controlled horizontal pull for lats and mid-back engagement.",
+      "instructions": [
+        "Sit tall with knees slightly bent and a neutral spine, grip the handle.",
+        "Drive elbows back and squeeze shoulder blades together as you row.",
+        "Control the return and avoid leaning excessively."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=seated-cable-row"
+    },
+    {
+      "id": "bodyweight-dip",
+      "name": "Dip",
+      "primary_muscle": "Chest/Triceps",
+      "equipment": "bodyweight",
+      "secondaryMuscles": [],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "bodyweight or weighted", "rest_seconds": 90 }
+      ],
+      "description": "Upper-body pressing variation emphasizing lower chest and triceps.",
+      "instructions": [
+        "Grip parallel bars and lower body by bending elbows to about 90 degrees.",
+        "Press back up to full elbow extension focusing on chest/triceps drive.",
+        "Keep shoulders down and avoid excessive forward lean if shoulder pain occurs."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=bodyweight-dip"
+    },
+    {
+      "id": "barbell-split-squat",
+      "name": "Barbell Split Squat",
+      "primary_muscle": "Quads",
+      "equipment": "barbell",
+      "secondaryMuscles": ["Glutes"],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "challenging", "rest_seconds": 90 }
+      ],
+      "description": "Single-leg barbell split squat for strength and balance.",
+      "instructions": [
+        "Set one foot forward and one back with bar on your back, keep torso upright.",
+        "Lower until front thigh is near parallel, then drive through the front heel.",
+        "Keep weight evenly balanced and control the descent."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=barbell-split-squat"
+    },
+    {
+      "id": "cable-triceps-pushdown",
+      "name": "Cable Triceps Pushdown",
+      "primary_muscle": "Triceps",
+      "equipment": "cable",
+      "secondaryMuscles": [],
+      "defaultSets": 3,
+      "defaultReps": 12,
+      "exampleSets": [
+        { "sets": 3, "reps": 12, "weight": "moderate", "rest_seconds": 60 }
+      ],
+      "description": "Isolation triceps movement using a cable pulley for constant tension.",
+      "instructions": [
+        "Stand upright and grip the bar with elbows pinned to your sides.",
+        "Extend the elbows fully while keeping upper arms still, then return slowly.",
+        "Focus on squeezing the triceps at the bottom of each rep."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=cable-triceps-pushdown"
+    },
+    {
+      "id": "dumbbell-biceps-curl",
+      "name": "Dumbbell Biceps Curl",
+      "primary_muscle": "Biceps",
+      "equipment": "dumbbell",
+      "secondaryMuscles": [],
+      "defaultSets": 3,
+      "defaultReps": 12,
+      "exampleSets": [
+        { "sets": 3, "reps": 12, "weight": "moderate", "rest_seconds": 60 }
+      ],
+      "description": "Classic arm isolation for biceps peak and strength.",
+      "instructions": [
+        "Stand with dumbbells at your sides and curl with elbows stationary.",
+        "Squeeze at the top and lower under control to full extension.",
+        "Avoid swinging; use controlled tempo for muscle tension."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=dumbbell-biceps-curl"
+    },
+    {
+      "id": "flat-bench-dumbbell-press",
+      "name": "Flat Dumbbell Bench Press",
+      "primary_muscle": "Chest",
+      "equipment": "bench",
+      "secondaryMuscles": ["Shoulders", "Triceps"],
+      "defaultSets": 3,
+      "defaultReps": 8,
+      "exampleSets": [
+        { "sets": 3, "reps": 8, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Bench-based dumbbell press to build balanced chest strength with a greater range of motion.",
+      "instructions": [
+        "Lie back on a flat bench holding dumbbells at chest level.",
+        "Press the weights up until arms are extended, then lower slowly.",
+        "Keep shoulder blades packed and maintain even range of motion."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=flat-bench-dumbbell-press"
+    },
+    {
+      "id": "leg-press-machine",
+      "name": "Leg Press (Machine)",
+      "primary_muscle": "Quads",
+      "equipment": "machine",
+      "secondaryMuscles": ["Glutes"],
+      "defaultSets": 3,
+      "defaultReps": 10,
+      "exampleSets": [
+        { "sets": 3, "reps": 10, "weight": "heavy-moderate", "rest_seconds": 90 }
+      ],
+      "description": "Machine leg press to load the quads with controlled foot position and reduced back strain.",
+      "instructions": [
+        "Sit on the machine with feet shoulder-width on the plate and controlled range.",
+        "Lower the sled until knees are about 90 degrees, then press back to start.",
+        "Avoid locking knees at full extension."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=leg-press-machine"
+    },
+    {
+      "id": "kettlebell-swing",
+      "name": "Kettlebell Swing",
+      "primary_muscle": "Hamstrings/Glutes",
+      "equipment": "kettlebell",
+      "secondaryMuscles": ["Core", "Back"],
+      "defaultSets": 3,
+      "defaultReps": 15,
+      "exampleSets": [
+        { "sets": 3, "reps": 15, "weight": "moderate", "rest_seconds": 60 }
+      ],
+      "description": "Explosive hip hinge movement for posterior chain power and conditioning.",
+      "instructions": [
+        "Stand with feet slightly wider than hip-width and hinge at hips to swing the bell.",
+        "Explosively extend hips to swing to chest height while bracing the core.",
+        "Control the downswing and reset before the next rep."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=kettlebell-swing"
+    },
+    {
+      "id": "seated-machine-shoulder-press",
+      "name": "Seated Machine Shoulder Press",
+      "primary_muscle": "Shoulders",
+      "equipment": "machine",
+      "secondaryMuscles": ["Triceps"],
+      "defaultSets": 3,
+      "defaultReps": 10,
+      "exampleSets": [
+        { "sets": 3, "reps": 10, "weight": "moderate", "rest_seconds": 90 }
+      ],
+      "description": "Machine-based shoulder press offering stability and consistent range of motion.",
+      "instructions": [
+        "Adjust seat so handles align with mid-shoulder and keep back against pad.",
+        "Press handles up until arms are extended, then lower under control.",
+        "Use a full range without locking out aggressively."
+      ],
+      "image": "https://via.placeholder.com/400x300?text=seated-machine-shoulder-press"
+    }
+  ],
+  "templates": [
+    {
+      "id": "tmpl_ppl",
+      "name": "Push / Pull / Legs",
+      "description": "Three-way split separating pushing, pulling, and lower-body sessions for focused training.",
+      "help": "Use heavier compound lifts early in the session; finish with isolation for volume.",
+      "sessions": [
+        {
+          "name": "Push",
+          "exercises": ["barbell-bench-press", "dumbbell-incline-press", "dumbbell-overhead-press", "cable-triceps-pushdown", "flat-bench-dumbbell-press"]
+        },
+        {
+          "name": "Pull",
+          "exercises": ["barbell-bent-over-row", "pull-up", "seated-cable-row", "dumbbell-biceps-curl"]
+        },
+        {
+          "name": "Legs",
+          "exercises": ["barbell-back-squat", "barbell-split-squat", "dumbbell-walking-lunge", "barbell-deadlift", "leg-press-machine"]
+        }
+      ]
+    },
+    {
+      "id": "tmpl_upper_lower",
+      "name": "Upper / Lower",
+      "description": "Alternating upper- and lower-body sessions for balanced frequency and recovery.",
+      "help": "Aim for 2 upper and 2 lower sessions per week; prioritize compound lifts first.",
+      "sessions": [
+        {
+          "name": "Upper",
+          "exercises": ["barbell-bench-press", "barbell-bent-over-row", "dumbbell-overhead-press", "pull-up", "flat-bench-dumbbell-press"]
+        },
+        {
+          "name": "Lower",
+          "exercises": ["barbell-back-squat", "barbell-deadlift", "barbell-split-squat", "leg-press-machine"]
+        }
+      ]
+    },
+    {
+      "id": "tmpl_brosplit",
+      "name": "Bro Split",
+      "description": "Single-muscle-focus days (Chest, Back, Legs, Shoulders, Arms) for high-volume specialization.",
+      "help": "Use higher rep ranges and varied angles to target each muscle thoroughly.",
+      "sessions": [
+        { "name": "Chest", "exercises": ["barbell-bench-press", "dumbbell-incline-press", "cable-fly", "flat-bench-dumbbell-press"] },
+        { "name": "Back", "exercises": ["barbell-bent-over-row", "seated-cable-row", "pull-up"] },
+        { "name": "Legs", "exercises": ["barbell-back-squat", "dumbbell-walking-lunge", "barbell-deadlift", "leg-press-machine"] },
+        { "name": "Shoulders", "exercises": ["dumbbell-overhead-press", "dumbbell-incline-press", "seated-machine-shoulder-press"] },
+        { "name": "Arms", "exercises": ["dumbbell-biceps-curl", "cable-triceps-pushdown", "bodyweight-dip"] }
+      ]
+    },
+    {
+      "id": "tmpl_fullbody",
+      "name": "Full Body",
+      "description": "Whole-body sessions focusing on major compound lifts for overall strength and conditioning.",
+      "help": "Keep session volume manageable (3-5 main sets per lift) and prioritize recovery.",
+      "sessions": [
+        {
+          "name": "Full Body Session",
+          "exercises": ["barbell-back-squat", "barbell-bench-press", "barbell-bent-over-row", "barbell-deadlift", "kettlebell-swing"]
+        }
+      ]
+    }
+  ]
+}
